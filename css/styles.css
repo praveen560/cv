@@ -45,9 +45,14 @@ a{
 }
 p{
   font-family: 'Merriweather Sans', sans-serif;
+
 }
 .profile{
+  margin : auto;
 
+}
+.deve{
+  margin-bottom: 40px;
 }
 .copyright{
   font-size: 0.75rem;
@@ -122,4 +127,12 @@ a:hover{
   background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
   background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
   text-decoration: none;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+
 }
